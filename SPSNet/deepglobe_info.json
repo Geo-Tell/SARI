@@ -1,0 +1,100 @@
+[
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 0,
+    "name": "urban land",
+    "ignoreInEval": true,
+    "id": 0,
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "trainId": 0
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 1,
+    "name": "agriculture land",
+    "ignoreInEval": true,
+    "id": 1,
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "trainId": 1
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 2,
+    "name": "rangeland",
+    "ignoreInEval": true,
+    "id": 2,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 2
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 3,
+    "name": "forest land",
+    "ignoreInEval": true,
+    "id": 3,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 3
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 4,
+    "name": "water",
+    "ignoreInEval": true,
+    "id": 4,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 4
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 5,
+    "name": "barren",
+    "ignoreInEval": true,
+    "id": 5,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 5
+  },
+  {
+    "hasInstances": false,
+    "category": "object",
+    "catid": 255,
+    "name": "barren",
+    "ignoreInEval": true,
+    "id": 255,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 6
+  }
+]
