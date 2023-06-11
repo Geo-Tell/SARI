@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -u evaluate_cv.py \
 --PthFile ${pth} \
 --Backbone ${Backbone} \
 --ModelFile ${ModelFile} \
---Validset traval.lst \
+--Validset trainval.lst \
 --dataset gid \
 --Crop \
 --MultiScale
