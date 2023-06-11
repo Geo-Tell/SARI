@@ -3,7 +3,7 @@ Root='xx/DeepGlobe/data_768'
 Backbone='Resnet50'
 ModelFile='models.SPSNet_deepglobe_feat'
 Port='12345'
-CUDA_VISIBLE_DEVICES=6,7 python -m torch.distributed.launch --nnodes=1 --nproc_per_node=2 --master_port ${Port} train_sp.py \
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 --nproc_per_node=2 --master_port ${Port} train_sp.py \
 --resPath ${Path} \
 --Root ${Root} \
 --Backbone ${Backbone} \
